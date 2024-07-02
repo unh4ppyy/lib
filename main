@@ -3504,6 +3504,8 @@ function Library:CreateWindow(...)
         Parent = ScreenGui;
     });
 
+print("lol")
+
     local TransparencyCache = {};
     local Toggled = false;
     local Fading = false;
@@ -3635,4 +3637,3 @@ Players.PlayerRemoving:Connect(OnPlayerChange);
 
 getgenv().Library = Library
 return Library
-print("lol")
