@@ -2753,6 +2753,7 @@ do
         TextXAlignment = Enum.TextXAlignment.Left;
         ZIndex = 203;
         Parent = InnerFrame;
+        RichText = true;
     });
 
     Library.Watermark = WatermarkOuter;
@@ -2996,6 +2997,7 @@ function Library:CreateWindow(...)
         TextXAlignment = Enum.TextXAlignment.Center;
         ZIndex = 1;
         Parent = Inner;
+        RichText = true;
     });
 
     local MainSectionOuter = Library:Create('Frame', {
@@ -3088,6 +3090,7 @@ function Library:CreateWindow(...)
             Text = Name;
             ZIndex = 1;
             Parent = TabButton;
+            RichText = true;
         });
 
         local Blocker = Library:Create('Frame', {
