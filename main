@@ -46,8 +46,6 @@ local Library = {
     ScreenGui = ScreenGui;
 };
 
-print("Linoria Rewrite // Made by Lazered.wtf // V1.1.2")
-
 local RainbowStep = 0
 local Hue = 0
 
@@ -2753,7 +2751,6 @@ do
         TextXAlignment = Enum.TextXAlignment.Left;
         ZIndex = 203;
         Parent = InnerFrame;
-        RichText = true;
     });
 
     Library.Watermark = WatermarkOuter;
@@ -3090,7 +3087,6 @@ function Library:CreateWindow(...)
             Text = Name;
             ZIndex = 1;
             Parent = TabButton;
-            RichText = true;
         });
 
         local Blocker = Library:Create('Frame', {
