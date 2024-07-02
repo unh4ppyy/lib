@@ -1826,7 +1826,6 @@ do
             Addons = {},
             Risky = Info.Risky,
             Warning = Info.Warning,
-            CustomColor = Info.CustomColor,
         };
 
         local Groupbox = self;
@@ -1944,12 +1943,6 @@ do
             Library:RemoveFromRegistry(ToggleLabel)
             ToggleLabel.TextColor3 = Library.WarningColor
             Library:AddToRegistry(ToggleLabel, { TextColor3 = 'WarningColor' })
-        end
-
-        if Toggle.CustomColor then
-            Library:RemoveFromRegistry(ToggleLabel)
-            ToggleLabel.TextColor3 = value
-            Library:AddToRegistry(ToggleLabel, { TextColor3 = 'value' })
         end
 
         Toggle:Display();
