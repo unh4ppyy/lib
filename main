@@ -46,7 +46,7 @@ local Library = {
     ScreenGui = ScreenGui;
 };
 
-print("Linoria Rewrite // Made by Lazered.wtf // V1.1.1")
+print("Linoria Rewrite // Made by Lazered.wtf // V1.1.2")
 
 local RainbowStep = 0
 local Hue = 0
