@@ -9,8 +9,6 @@ local RenderStepped = RunService.RenderStepped;
 local LocalPlayer = Players.LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 
-print("v1")
-
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end);
 
 local ScreenGui = Instance.new('ScreenGui');
@@ -47,6 +45,8 @@ local Library = {
     Signals = {};
     ScreenGui = ScreenGui;
 };
+
+print("Linoria Rewrite // Made by Lazered.wtf // V1.1.1")
 
 local RainbowStep = 0
 local Hue = 0
