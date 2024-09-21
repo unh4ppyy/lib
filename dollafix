@@ -1,6 +1,8 @@
 -- DOLLARWARE UI LIBRARY
 -- MADE BY TOPIT
 
+-- MODDED BY h1ghonpickles
+
 -- warning: comments are mostly retarded / useless
 -- some shit makes no sense but idc enough to fix it
 
@@ -4739,7 +4741,7 @@ do
                     toggle:enable()
                 end
                 if (s_risky) then 
-                    label.TextColor3 = Color3.fromRGB(233,233,233)
+                    toggle.instances.label.TextColor3 = Color3.fromRGB(255, 0, 0)
                 end
                 toggle.instances.controlFrame.Parent = self.instances.controlMenu
                 
@@ -7849,6 +7851,6 @@ do
         end)
     end
 end
-
+print("modded ui")
 
 return ui 
