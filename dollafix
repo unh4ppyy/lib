@@ -7851,6 +7851,5 @@ do
         end)
     end
 end
-print("modded ui")
 
 return ui 
