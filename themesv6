@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['lazered.wtf'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"131313","AccentColor":"34ebe5","BackgroundColor":"0d0d0d","OutlineColor":"323232"}') },
+		['lazered.wtf'] 		= { 1, httpService:JSONDecode('{"FontColor":"aeaeae","MainColor":"0f0f0f","AccentColor":"34ebe5","BackgroundColor":"0f0f0f","OutlineColor":"171717"}') },
 		['black & blue'] 	= { 2, httpService:JSONDecode('{"FontColor":"AEAEAE","MainColor":"0F0F0F","AccentColor":"30406A","SelectedTabColor":"151515","BackgroundColor":"0F0F0F","OutlineColor":"171717"}') },
 		['pink'] 	        = { 3, httpService:JSONDecode('{"FontColor":"c5c5c5","MainColor":"0F0F0F","AccentColor":"ffc6fe","SelectedTabColor":"171717","BackgroundColor":"0f0f0f","OutlineColor":"191919"}') },
 		['Jester'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
